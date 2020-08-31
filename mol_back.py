@@ -73,6 +73,7 @@ class MoleculeParser:
 
 if __name__ == "__main__":
     parser = MoleculeParser()
-    # mol = 'Mg2[(OH]2]3'
-    mol = 'K4[ON(SO3)2]2'
+    mol = 'H2O'
+    # mol = 'Mg2[(OH]2]3H2'
+    # mol = 'K4[ON(SO3)2]2'
     print('Output', parser.output(mol))

@@ -1,0 +1,12 @@
+awscli==1.18.127
+certifi==2020.6.20
+click==7.1.2
+Flask==1.0.2
+hmmlearn==0.2.0
+itsdangerous==1.1.0
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+pyasn1==0.4.8
+rsa==4.5
+Werkzeug==1.0.1
+WTForms @ file:///home/conda/feedstock_root/build_artifacts/wtforms_1596060166590/work
