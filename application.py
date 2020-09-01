@@ -10,7 +10,8 @@ def parse_molecule(molecule):
 
 # Model
 class InputForm(Form):
-    r = StringField(validators=[validators.InputRequired()])
+    r = StringField(validators=[validators.InputRequired()],
+                    render_kw={"placeholder": "H2O"})
 
 # View
 @application.route('/', methods=['GET', 'POST'])

@@ -1,4 +1,53 @@
-<form method=post action="">
-    Hello, Joko! Please insert your favorite molecule: {{ form.r }}
-    <input type=submit value=Parse!>
-</form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>J-case</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="static/css/normalize.css">
+  <link rel="stylesheet" href="static/css/skeleton.css">
+  <link rel="stylesheet" href="static/css/custom.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="static/image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <section class="header">
+      <h2 class="title">Hello Joko, what will be your molecule today?</h2>
+      <form method=post action="">
+          {{ form.r }}
+          <input class="button button-primary" style="background-color:rgb(131, 224, 131); border-color: rgb(131, 224, 131)"
+          type=submit value=Parse>
+      </form>
+
+      <div class="row">
+          <img class="value-img" src="static/images/molecules.png">
+          Parse your (regular) molecule.
+      </div>
+  </section>
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
