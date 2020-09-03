@@ -1,6 +1,6 @@
-# j-case: A simple web application for parsing molecules.
+# j-case: A simple web application for parsing molecules
 
-## Content.
+## Content
 
 This web application takes a molecule as input and outputs its atoms. The application is ready to be hosted on AWS.
 
@@ -9,7 +9,7 @@ Input:
 Output:
 ![Output](figs/output.png)
 
-## Installation.
+## Installation
 
 Requirements:
 ```
