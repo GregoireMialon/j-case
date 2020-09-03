@@ -29,3 +29,4 @@ cd j-case
 export PYTHONPATH=$PWD:$PYTHONPATH
 python application.py
 ```
+See Amazon Web Services Elastic Beanstalk tutorials for deployment.
