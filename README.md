@@ -2,7 +2,7 @@
 
 ## Content
 
-This web application takes a molecule as input and outputs its atoms. The application is ready to be hosted on AWS.
+This web application takes a molecule as input and outputs its atoms. The application is ready to be hosted on Amazon Web Services through Elastic Beanstalk.
 
 Input:
 ![Input](figs/input.png)
@@ -22,7 +22,7 @@ MarkupSafe==1.1.1
 Werkzeug==1.0.1
 WTForms==2.3.2
 ```
-Then,
+Then, run
 ```bash
 git clone https://github.com/GregoireMialon/j-case.git
 cd j-case
